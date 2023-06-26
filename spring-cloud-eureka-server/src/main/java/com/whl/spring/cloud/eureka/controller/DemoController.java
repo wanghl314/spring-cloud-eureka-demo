@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.apache.commons.lang.RandomStringUtils;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -17,7 +18,7 @@ public class DemoController {
         return "Demo";
     }
 
-    @GetMapping("/test")
+    @GetMapping(value = "/test", produces = MediaType.APPLICATION_JSON_VALUE)
     public Map<String, Object> test() {
         Map<String, Object> data = new HashMap<>();
         data.put("a", RandomStringUtils.randomAlphabetic(10));
