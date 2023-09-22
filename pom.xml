@@ -5,7 +5,7 @@
 
     <groupId>com.whl.spring</groupId>
     <artifactId>spring-cloud-eureka-demo</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>${revision}</version>
     <packaging>pom</packaging>
 
     <properties>
@@ -16,6 +16,7 @@
         <maven-javadoc-plugin.version>3.5.0</maven-javadoc-plugin.version>
         <!-- org/apache/maven/plugins/maven-source-plugin -->
         <maven-source-plugin.version>3.3.0</maven-source-plugin.version>
+        <revision>1.0-SNAPSHOT</revision>
         <!-- org/springframework/boot/spring-boot-dependencies -->
         <spring-boot.version>3.1.4</spring-boot.version>
         <!-- org/springframework/cloud/spring-cloud-dependencies -->
