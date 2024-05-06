@@ -29,5 +29,6 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
+        <finalName>eureka-server-${revision}</finalName>
     </build>
 </project>
