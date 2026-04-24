@@ -18,7 +18,7 @@
         <maven-source-plugin.version>3.4.0</maven-source-plugin.version>
         <revision>1.0-SNAPSHOT</revision>
         <!-- org/springframework/boot/spring-boot-dependencies -->
-        <spring-boot.version>4.0.5</spring-boot.version>
+        <spring-boot.version>4.0.6</spring-boot.version>
         <!-- org/springframework/cloud/spring-cloud-dependencies -->
         <spring-cloud.version>2025.1.1</spring-cloud.version>
     </properties>
